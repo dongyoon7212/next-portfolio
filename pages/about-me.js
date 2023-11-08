@@ -6,11 +6,11 @@ export default function AboutMe() {
   return (
     <Layout>
       <div>
-        <div class="flex flex-col items-center justify-center min-h-screen px-5 mb-10 px-6">
-          <div class="mx-auto max-w-screen-xl px-4 md:px-8">
-            <div class="grid gap-4 sm:gap-8 md:grid-cols-1 lg:grid-cols-2 lg:gap-12">
+        <div className="flex flex-col items-center justify-center min-h-screen px-5 mb-10 px-6">
+          <div className="mx-auto max-w-screen-xl px-4 md:px-8">
+            <div className="grid gap-4 sm:gap-8 md:grid-cols-1 lg:grid-cols-2 lg:gap-12">
               <div>
-                <div class="h-auto sm:h-auto md:h-auto">
+                <div className="h-auto sm:h-auto md:h-auto">
                   <Image
                     src={imgSrc}
                     loading="lazy"
@@ -22,19 +22,19 @@ export default function AboutMe() {
                 </div>
               </div>
 
-              <div class="md:pt-8">
-                <p class="text-center font-bold text-indigo-500 md:text-left">
+              <div className="md:pt-8">
+                <p className="text-center font-bold text-indigo-500 md:text-left">
                   Who we are
                 </p>
 
-                <h1 class="mb-4 text-center text-2xl font-bold text-gray-800 sm:text-3xl md:mb-6 md:text-left">
+                <h1 className="mb-4 text-center text-2xl font-bold text-gray-800 sm:text-3xl md:mb-6 md:text-left">
                   세계를 누비는 개발자
                 </h1>
 
-                <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                  사용자들에게 제가 만든 웹이나 어플 등을 보여주고 사용하는것에
-                  보람을 느껴서 프론트엔드를 공부하였습니다. 처음에는 Html,
-                  CSS로 공부하기 시작하였습니다. 간단한 코드로도 웹을 만드는것에
+                <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
+                  저는 사용자들에게 제가 만든 웹이나 어플 등을 보여주고
+                  사용하는것에 보람을 느껴서 코딩을 공부하기 시작했습니다.
+                  처음에는 Html, CSS로 시작하여 간단한 코드로도 웹을 만드는것에
                   재미를 느꼈고 JavaScript 더 나아가 React까지 공부를
                   하였습니다. 하지만 공부에 그치지 않고 다른 누군가와 협업을
                   통해 백엔드에 발을 담궈보기도 하고 소통을 하며 나의 프로젝트에
@@ -46,30 +46,34 @@ export default function AboutMe() {
                   개발자입니다.
                   <br />
                   <br />
-                  
-                  <a
-                    href="#"
-                    class="text-indigo-500 underline transition duration-100 hover:text-indigo-600 active:text-indigo-700"
-                  >
-                    random
-                  </a>{" "}
-                  or otherwise generated. It may be used to display a sample of
-                  fonts or generate text for testing. Filler text is dummy text
-                  which has no meaning however looks very similar to real text.
+                  그리고 저는 꿈이 있습니다. 여행을 좋아해서 세계여행을 하며
+                  코딩을 하는 디지털 노마드가 되어 사람들의 손이 끊임없이 닿는
+                  웹이나 앱을 만들면서 여행하는게 제 꿈 입니다. 그러기 위해
+                  한걸음 한걸음 나아가는 중 입니다.
                 </p>
 
-                <h2 class="mb-2 text-center text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4 md:text-left">
-                  About us
+                <h2 className="mb-2 text-center text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4 md:text-left">
+                  About Me
                 </h2>
 
-                <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                  This is a section of some simple filler text, also known as
-                  placeholder text. It shares some characteristics of a real
-                  written text but is random or otherwise generated. It may be
-                  used to display a sample of fonts or generate text for
-                  testing. Filler text is dummy text which has no meaning
-                  however looks very similar to real text.
-                </p>
+                <div className="">
+                  <h2>이름</h2>
+                  <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
+                    이동윤
+                  </p>
+                  <h2>생년월일</h2>
+                  <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
+                    1999.02.26
+                  </p>
+                  <h2>학력</h2>
+                  <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
+                    동서대학교 정보보안학과
+                  </p>
+                  <h2>이메일</h2>
+                  <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
+                    dongyoon7212@naver.com
+                  </p>
+                </div>
               </div>
             </div>
           </div>
