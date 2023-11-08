@@ -22,11 +22,14 @@ export default function Header() {
             >
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
             </svg>
-            <span className="ml-3 text-xl">빡빡이 포트폴리오</span>
+            <span className="ml-3 text-xl">Yoon Portfolio</span>
           </Link>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
             <Link href="/" className="mr-5 hover:text-gray-900">
               홈
+            </Link>
+            <Link href="/about-me" className="mr-5">
+              누구세요?
             </Link>
             <Link href="/projects" className="mr-5 hover:text-gray-900">
               프로젝트
