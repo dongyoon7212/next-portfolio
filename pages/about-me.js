@@ -6,7 +6,7 @@ export default function AboutMe() {
   return (
     <Layout>
       <div>
-        <div className="flex flex-col items-center justify-center min-h-screen px-5 mb-10 px-6">
+        <div className="flex flex-col items-center justify-center min-h-screen mb-10 px-6">
           <div className="mx-auto max-w-screen-xl px-4 md:px-8">
             <div className="grid gap-4 sm:gap-8 md:grid-cols-1 lg:grid-cols-2 lg:gap-12">
               <div>

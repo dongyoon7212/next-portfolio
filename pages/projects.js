@@ -8,7 +8,7 @@ export default function Projects({ projects }) {
 
   return (
     <Layout>
-      <div className="flex flex-col items-center justify-center min-h-screen px-5 mb-10 px-6">
+      <div className="flex flex-col items-center justify-center min-h-screen mb-10 px-6">
         {/* <Head>
           <title>빡코딩 포트폴리오</title>
           <meta name="description" content="오늘도 빡코딩!" />
