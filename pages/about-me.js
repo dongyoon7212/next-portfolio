@@ -10,7 +10,7 @@ export default function AboutMe() {
           <div className="mx-auto max-w-screen-xl px-4 md:px-8">
             <div className="grid gap-4 sm:gap-8 md:grid-cols-1 lg:grid-cols-2 lg:gap-12">
               <div>
-                <div className="h-auto sm:h-auto md:h-auto">
+                <div className="h-auto sm:h-auto md:h-auto mt-10">
                   <Image
                     src={imgSrc}
                     loading="lazy"
