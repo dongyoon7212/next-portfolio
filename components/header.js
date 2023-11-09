@@ -29,7 +29,7 @@ export default function Header() {
               href="https://www.instagram.com/d.yxxn/"
               className="mr-5 hover:text-gray-900"
             >
-              연락하기
+              인스타그램
             </Link>
           </nav>
           <DarkModeToggleButton />
