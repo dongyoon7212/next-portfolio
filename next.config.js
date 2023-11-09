@@ -1,5 +1,3 @@
-const Protocol = require("mysql/lib/protocol/Protocol");
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
