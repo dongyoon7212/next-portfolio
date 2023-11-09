@@ -1,10 +1,9 @@
 import Layout from "../components/layout";
-import Head from "next/head";
 import { TOKEN, DATABASE_ID } from "../config/index";
 import ProjectItem from "../components/projects/project-item";
 
 export default function Projects({ projects }) {
-  console.log(projects);
+  // console.log(projects);
 
   return (
     <Layout>
@@ -33,6 +32,9 @@ export default function Projects({ projects }) {
 export async function getStaticProps() {
   const options = {
     method: "POST",
+    options: {
+      requestTimeout: 3000,
+    },
     headers: {
       accept: "application/json",
       "Notion-Version": "2022-06-28",
@@ -61,7 +63,7 @@ export async function getStaticProps() {
     (aProject) => aProject.properties.Name.title[0].plain_text
   );
 
-  console.log(`projectNames: ${projectNames}`);
+  // console.log(`projectNames: ${projectNames}`);
 
   return {
     props: { projects },

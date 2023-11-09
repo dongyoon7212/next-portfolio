@@ -8,7 +8,7 @@ export default function Hero() {
         <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
           안녕하세요.<br/>개발자 이동윤입니다.
           <br className="hidden lg:inline-block" />
-          맘껏 구경해요!
+          <br/>맘껏 구경해요!
         </h1>
         <p className="mb-8 leading-relaxed">
           저는 여행하는 것을 좋아해요. 이 세상 이곳 저곳 누비며 코딩을 하는게 제 꿈이랍니다. 그래서 열심히 준비중이에요. 노력은 배신하지 않으니까요!<br/> 오랫동안 꿈을 그리는 사람은 마침내 그 꿈을 닮아간답니다.

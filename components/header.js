@@ -17,7 +17,7 @@ export default function Header() {
           </Link>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
             <Link href="/" className="mr-5 hover:text-gray-900">
-              홈
+              처음으로
             </Link>
             <Link href="/about-me" className="mr-5">
               누구세요?
