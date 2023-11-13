@@ -28,14 +28,14 @@ export default function AboutMe() {
                 </p>
 
                 <h1 className="mb-4 text-center text-2xl font-bold text-gray-800 sm:text-3xl md:mb-6 md:text-left">
-                 더 큰 세상을 나아갈 준비 완료
+                  더 큰 세상을 나아갈 준비 완료
                 </h1>
 
                 <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
                   저는 사용자들에게 제가 만든 웹이나 어플 등을 보여주고 사용하는
-                  것에 보람을 느껴서 코딩을 공부하기 시작했습니다. 처음에는
+                  것에 흥미를 느껴서 코딩에 관심을 가지기 시작했습니다. 처음에는
                   HTML, CSS로 시작하여 간단한 코드로도 웹을 구현하는 것에 재미를
-                  느꼈고 JavaScript 그리고 더 나아가 React까지 공부를
+                  느꼈고 JavaScript 그리고 더 나아가 React.js까지 공부를
                   하였습니다. 하지만 공부에 그치지 않고 다른 누군가와 협업을
                   통해 백엔드에 발을 담가보기도 하고 소통을 하며 나의 프로젝트에
                   숨을 불어넣는 과정이 짜릿했습니다. 중간중간 난관을 맞이하곤
