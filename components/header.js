@@ -26,8 +26,16 @@ export default function Header() {
               프로젝트
             </Link>
             <Link
+              href="https://dongyoon7212.github.io/"
+              className="mr-5 hover:text-gray-900"
+              target='_blank'
+            >
+              블로그
+            </Link>
+            <Link
               href="https://www.instagram.com/d.yxxn/"
               className="mr-5 hover:text-gray-900"
+              target='_blank'
             >
               인스타그램
             </Link>
