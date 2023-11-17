@@ -14,10 +14,14 @@ export default function Hero() {
           맘껏 구경해요!
         </h1>
         <p className="mb-8 leading-relaxed">
-          저는 항상 꿈을 키우고 그 꿈을 현실로 만들기 위해 노력하고 있는
-          열정적인 개발자입니다. <br />
           <br />
-          {'"오랫동안 꿈을 그리는 사람은 마침내 그 꿈을 닮아간다."'}
+          제가 생각하는 개발자란
+          <br />
+          <p className="font-bold text-lg">
+            {
+              '"더 나은 삶을 위한 서비스와 가치 있는 정보를 전달하여 세상을 더 나아지게 하는 일."'
+            }
+          </p>
         </p>
         <div className="flex justify-center">
           <Link href="/projects" className="btn-project">
