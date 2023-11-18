@@ -13,16 +13,15 @@ export default function Hero() {
           <br />
           맘껏 구경해요!
         </h1>
-        <p className="mb-8 leading-relaxed">
+        <div className="mb-8 leading-relaxed;">
           <br />
-          제가 생각하는 개발자란
-          <br />
-          <p className="font-bold text-lg">
+          <p className="text-gray-700 dark:text-gray-400">제가 생각하는 개발자란</p>
+          <p className="text-gray-700 dark:text-gray-200 font-semibold text-lg">
             {
-              '"더 나은 삶을 위한 서비스와 가치 있는 정보를 전달하여 세상을 더 나아지게 하는 일."'
+              '"더 나은 삶을 위한 서비스와 가치 있는 정보를 보다 쉽게 전달하여 세상을 더 나아지게 하는 일."'
             }
           </p>
-        </p>
+        </div>
         <div className="flex justify-center">
           <Link href="/projects" className="btn-project">
             구경하러가기

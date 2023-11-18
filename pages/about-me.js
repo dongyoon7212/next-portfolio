@@ -23,15 +23,16 @@ export default function AboutMe() {
               </div>
 
               <div className="md:pt-8">
-                <p className="text-center font-bold text-indigo-500 md:text-left">
+                <span className="md: text-3xl text-center font-bold text-indigo-500 md:text-left">
                   Who we are
-                </p>
-
+                </span>
+                <br />
+                <br />
                 <h1 className="mb-4 text-center text-2xl font-bold text-gray-800 sm:text-3xl md:mb-6 md:text-left">
                   더 큰 바다로 항해할 준비 완료
                 </h1>
 
-                <div className="mb-6 text-gray-500 sm:text-lg md:mb-8">
+                <div className="mb-6 text-gray-700 dark:text-gray-400 sm:text-lg md:mb-8">
                   제가 가지고 있는 강점은 하나를 깊게 파는 것
                   <br />
                   <br />
@@ -64,19 +65,19 @@ export default function AboutMe() {
 
                 <div>
                   <h2>이름</h2>
-                  <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
+                  <p className="mb-6 text-gray-600 sm:text-lg md:mb-8">
                     이동윤
                   </p>
                   <h2>생년월일</h2>
-                  <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
+                  <p className="mb-6 text-gray-600 sm:text-lg md:mb-8">
                     1999.02.26
                   </p>
                   <h2>학력</h2>
-                  <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
+                  <p className="mb-6 text-gray-600 sm:text-lg md:mb-8">
                     동서대학교 정보보안학과
                   </p>
                   <h2>이메일</h2>
-                  <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
+                  <p className="mb-6 text-gray-600 sm:text-lg md:mb-8">
                     dongyoon7212@naver.com
                   </p>
                 </div>
