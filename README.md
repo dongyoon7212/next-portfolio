@@ -1,40 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=Yoon%20Portfolio&fontSize=100)
 
-## Getting Started
+# 🔖 목차
 
-First, run the development server:
+> ## [✨ 프로젝트 소개](#-프로젝트-소개-notion)
+>
+> ## [🛠 개발 도구](#-개발-도구-1)
+>
+> ## [🖥 화면 구현](#-화면-구현-1)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<br/>
+<br/>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ 프로젝트 소개
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### 🌟 제목
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+-   Yoon Portfolio, 개인 포트폴리오 웹사이트
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### 📆 제작 기간
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+-   2023.10.11 ~ 2023.11.08
 
-## Learn More
+### 🔎 주요 기능
 
-To learn more about Next.js, take a look at the following resources:
+-   포트폴리오 소개 메인 페이지
+-   본인 소개 페이지
+-   프로젝트 소개 페이지
+-   다크모드 지원
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<br/>
+<br/>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🛠 개발 도구
 
-## Deploy on Vercel
+<p>
+<img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white"/>
+<img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
+<img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white"/>
+<img src="https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white"/>
+<img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>
+</p>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🖥 화면 구현
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![스크린샷 2024-05-26 오후 2 43 53](https://github.com/dongyoon7212/next-portfolio/assets/106566223/53b98c0d-321e-45df-b317-12923a04b58b)
+
+![스크린샷 2024-05-26 오후 2 43 59](https://github.com/dongyoon7212/next-portfolio/assets/106566223/765fc6af-674f-4f84-b759-b4e3877a7086)
+
+![스크린샷 2024-05-26 오후 2 48 36](https://github.com/dongyoon7212/next-portfolio/assets/106566223/42316a83-cfc8-40ce-894e-1544af0eb54c)
+
+
