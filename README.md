@@ -47,6 +47,6 @@
 
 ![스크린샷 2024-05-26 오후 2 43 59](https://github.com/dongyoon7212/next-portfolio/assets/106566223/765fc6af-674f-4f84-b759-b4e3877a7086)
 
-![스크린샷 2024-05-26 오후 2 48 36](https://github.com/dongyoon7212/next-portfolio/assets/106566223/42316a83-cfc8-40ce-894e-1544af0eb54c)
+![스크린샷 2024-05-26 오후 2 48 36](https://github.com/dongyoon7212/Trip/assets/106566223/1e8f6a4f-b8ff-433a-abb1-5f0dc77903a1)
 
 
