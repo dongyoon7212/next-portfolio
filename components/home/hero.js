@@ -16,11 +16,11 @@ export default function Hero() {
                 <div className="mb-8 leading-relaxed;">
                     <br />
                     <p className="text-gray-700 dark:text-gray-400">
-                        제가 가진 개발자로서의 신념
+                        중고신입
                     </p>
                     <p className="text-gray-700 dark:text-gray-200 font-semibold text-lg">
                         {
-                            '"최상의 서비스와 가치 있는 정보를 보다 쉽게 전달하여 더 나은 세상을 꿈꾸다."'
+                            '"저는 개발로 세상을 바꾸고, 소통으로 더 나은 팀을 만드는 사람입니다."'
                         }
                     </p>
                 </div>
